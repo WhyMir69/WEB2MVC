@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>API Login Test</title>    <script>
+        async function login() {
+            const email = document.getElementById('email').value;
+            const password = document.getElementById('password').value;
+            
+            document.getElementById('result').textContent = 'Sending request...';
+            document.getElementById('status').textContent = '';
+              try {
+                // Include the full path to login endpoint
+                const response = await fetch('/WEB2Finals/rest-api-1/login', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({ email, password })
+                });
+                
+                // Display the status code
+                document.getElementById('status').textContent = `Response status: ${response.status} ${response.statusText}`;
+                
+                // Handle non-JSON responses
+                const contentType = response.headers.get('content-type');
+                if (contentType && contentType.includes('application/json')) {
+                    const result = await response.json();
+                    document.getElementById('result').textContent = JSON.stringify(result, null, 2);
+                    
+                    // Store the token if login was successful
+                    if (result.token) {
+                        localStorage.setItem('jwt_token', result.token);
+                        document.getElementById('status').textContent += ' - Login successful!';
+                        document.getElementById('status').style.color = 'green';
+                    } else {
+                        document.getElementById('status').textContent += ' - Login failed';
+                        document.getElementById('status').style.color = 'red';
+                    }
+                } else {
+                    const text = await response.text();
+                    document.getElementById('result').textContent = text;
+                    document.getElementById('status').textContent += ' - Non-JSON response';
+                    document.getElementById('status').style.color = 'orange';
+                }
+            } catch (error) {
+                document.getElementById('result').textContent = 'Error: ' + error.message;
+                document.getElementById('status').textContent = 'Request error: ' + error.message;
+                document.getElementById('status').style.color = 'red';
+            }
+        }
+    </script>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        .form-group { margin-bottom: 15px; }
+        label { display: block; margin-bottom: 5px; }
+        input { padding: 8px; width: 300px; }
+        button { padding: 10px 20px; background: #4CAF50; color: white; border: none; cursor: pointer; }
+        pre { background: #f4f4f4; padding: 15px; border-radius: 5px; overflow: auto; }
+        #status { font-weight: bold; margin-top: 10px; }
+    </style>
+</head>
+<body>
+    <h1>REST API Login Test</h1>
+    
+    <div class="form-group">
+        <label for="email">Email:</label>
+        <input type="email" id="email" value="john.doe@example.com">
+    </div>
+    
+    <div class="form-group">
+        <label for="password">Password:</label>
+        <input type="password" id="password" value="password123">
+    </div>
+    
+    <button onclick="login()">Login</button>
+    
+    <div id="status"></div>
+    
+    <h2>Response:</h2>
+    <pre id="result">Response will appear here</pre>
+</body>
+</html>

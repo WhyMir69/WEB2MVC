@@ -1,0 +1,580 @@
+Login attempt: admin
+POST data: Array
+(
+    [username] => admin
+    [password] => admin123
+)
+
+Session: Array
+(
+    [_flash] => Array
+        (
+            [error] => Invalid credentials
+        )
+
+)
+
+User found: Array
+(
+    [id] => 1
+    [username] => admin
+    [password] => $2y$10$8uRbD/KKmET0L0bhyHFHdOJFyS8Oq71FGQtpBEyWzKgJHEWpYlK9C
+    [email] => admin@example.com
+    [created_at] => 2025-05-22 08:37:09
+)
+
+Login attempt: test
+POST data: Array
+(
+    [username] => test
+    [password] => password123
+)
+
+Session: Array
+(
+    [_flash] => Array
+        (
+            [error] => Invalid credentials
+        )
+
+)
+
+User found: 
+Login attempt: admin
+POST data: Array
+(
+    [username] => admin
+    [password] => admin123
+)
+
+Session: Array
+(
+    [_flash] => Array
+        (
+            [error] => Invalid credentials
+        )
+
+)
+
+User found: Array
+(
+    [id] => 1
+    [username] => admin
+    [password] => $2y$10$8uRbD/KKmET0L0bhyHFHdOJFyS8Oq71FGQtpBEyWzKgJHEWpYlK9C
+    [email] => admin@example.com
+    [created_at] => 2025-05-22 08:37:09
+)
+
+Password verification result: FAILED
+Input password: admin123
+Stored hash: $2y$10$8uRbD/KKmET0L0bhyHFHdOJFyS8Oq71FGQtpBEyWzKgJHEWpYlK9C
+Login attempt: admin
+POST data: Array
+(
+    [username] => admin
+    [password] => admin123
+)
+
+Session: Array
+(
+    [_flash] => Array
+        (
+            [error] => Invalid credentials
+        )
+
+)
+
+User found: Array
+(
+    [id] => 1
+    [username] => admin
+    [password] => $2y$10$8uRbD/KKmET0L0bhyHFHdOJFyS8Oq71FGQtpBEyWzKgJHEWpYlK9C
+    [email] => admin@example.com
+    [created_at] => 2025-05-22 08:37:09
+)
+
+Password verification result: FAILED
+Input password: admin123
+Stored hash: $2y$10$8uRbD/KKmET0L0bhyHFHdOJFyS8Oq71FGQtpBEyWzKgJHEWpYlK9C
+Login attempt: admin
+POST data: Array
+(
+    [username] => admin
+    [password] => admin123
+)
+
+Session: Array
+(
+    [_flash] => Array
+        (
+            [error] => Invalid credentials
+        )
+
+)
+
+User found: Array
+(
+    [id] => 2
+    [username] => admin
+    [password] => $2y$10$YCCH.qeqDxFf5.eOToEle.Mbxu6Nm9.Tj/j.MtiCy1EraZZpzsIem
+    [email] => admin@example.com
+    [created_at] => 2025-05-22 09:09:53
+)
+
+Password verification result: SUCCESS
+Input password: admin123
+Stored hash: $2y$10$YCCH.qeqDxFf5.eOToEle.Mbxu6Nm9.Tj/j.MtiCy1EraZZpzsIem
+Login attempt: admin
+POST data: Array
+(
+    [username] => admin
+    [password] => admin123
+)
+
+Session: Array
+(
+)
+
+User found: Array
+(
+    [id] => 3
+    [username] => admin
+    [password] => $2y$10$YCCH.qeqDxFf5.eOToEle.Mbxu6Nm9.Tj/j.MtiCy1EraZZpzsIem
+    [email] => admin@example.com
+    [role] => admin
+    [created_at] => 2025-05-22 09:12:52
+)
+
+Password verification result: SUCCESS
+Input password: admin123
+Stored hash: $2y$10$YCCH.qeqDxFf5.eOToEle.Mbxu6Nm9.Tj/j.MtiCy1EraZZpzsIem
+Login attempt: admin
+POST data: Array
+(
+    [username] => admin
+    [password] => admin123
+)
+
+Session: Array
+(
+)
+
+User found: Array
+(
+    [id] => 3
+    [username] => admin
+    [password] => $2y$10$YCCH.qeqDxFf5.eOToEle.Mbxu6Nm9.Tj/j.MtiCy1EraZZpzsIem
+    [email] => admin@example.com
+    [role] => admin
+    [created_at] => 2025-05-22 09:12:52
+)
+
+Password verification result: SUCCESS
+Input password: admin123
+Stored hash: $2y$10$YCCH.qeqDxFf5.eOToEle.Mbxu6Nm9.Tj/j.MtiCy1EraZZpzsIem
+Login attempt: asd
+POST data: Array
+(
+    [username] => asd
+    [password] => asdasdasd
+)
+
+Session: Array
+(
+    [_flash] => Array
+        (
+            [success] => Registration successful! Please log in.
+        )
+
+)
+
+User found: Array
+(
+    [id] => 4
+    [username] => asd
+    [password] => $2y$10$IYUQYFhWQjyd/7AslqmB7uVj.8genPCm1TxmYKrBkPgbRWMLqBECG
+    [email] => ymir.onil.ylanan151@gmail.com
+    [role] => staff
+    [created_at] => 2025-05-22 09:19:35
+)
+
+Password verification result: FAILED
+Input password: asdasdasd
+Stored hash: $2y$10$IYUQYFhWQjyd/7AslqmB7uVj.8genPCm1TxmYKrBkPgbRWMLqBECG
+Login attempt: asd
+POST data: Array
+(
+    [username] => asd
+    [password] => asdasdasd
+)
+
+Session: Array
+(
+    [_flash] => Array
+        (
+            [success] => Registration successful! Please log in.
+            [error] => Invalid credentials
+        )
+
+)
+
+User found: Array
+(
+    [id] => 4
+    [username] => asd
+    [password] => $2y$10$IYUQYFhWQjyd/7AslqmB7uVj.8genPCm1TxmYKrBkPgbRWMLqBECG
+    [email] => ymir.onil.ylanan151@gmail.com
+    [role] => staff
+    [created_at] => 2025-05-22 09:19:35
+)
+
+Password verification result: FAILED
+Input password: asdasdasd
+Stored hash: $2y$10$IYUQYFhWQjyd/7AslqmB7uVj.8genPCm1TxmYKrBkPgbRWMLqBECG
+Login attempt: asdasdasd
+POST data: Array
+(
+    [username] => asdasdasd
+    [password] => 123123123
+)
+
+Session: Array
+(
+    [_flash] => Array
+        (
+            [success] => Registration successful! Please log in.
+            [error] => Username already exists
+        )
+
+)
+
+User found: Array
+(
+    [id] => 5
+    [username] => asdasdasd
+    [password] => $2y$10$9WipW5TwNwX1lMu.eSU1SOnXjZXYO28jvfpDAtMH56Vi4RFVgEjqG
+    [email] => asdasdasdas@gmail.com
+    [role] => staff
+    [created_at] => 2025-05-22 09:20:18
+)
+
+Password verification result: FAILED
+Input password: 123123123
+Stored hash: $2y$10$9WipW5TwNwX1lMu.eSU1SOnXjZXYO28jvfpDAtMH56Vi4RFVgEjqG
+Login attempt: asd
+POST data: Array
+(
+    [username] => asd
+    [password] => 123123123
+)
+
+Session: Array
+(
+    [_flash] => Array
+        (
+            [success] => Registration successful! Please log in.
+            [error] => Invalid credentials
+        )
+
+)
+
+User found: Array
+(
+    [id] => 4
+    [username] => asd
+    [password] => $2y$10$IYUQYFhWQjyd/7AslqmB7uVj.8genPCm1TxmYKrBkPgbRWMLqBECG
+    [email] => ymir.onil.ylanan151@gmail.com
+    [role] => staff
+    [created_at] => 2025-05-22 09:19:35
+)
+
+Password verification result: FAILED
+Input password: 123123123
+Stored hash: $2y$10$IYUQYFhWQjyd/7AslqmB7uVj.8genPCm1TxmYKrBkPgbRWMLqBECG
+Login attempt: onil
+POST data: Array
+(
+    [username] => onil
+    [password] => 123
+)
+
+Session: Array
+(
+    [_flash] => Array
+        (
+            [success] => Registration successful! Please log in.
+            [error] => Email already exists
+        )
+
+)
+
+User found: 
+Login attempt: onil
+POST data: Array
+(
+    [username] => onil
+    [password] => 123123123
+)
+
+Session: Array
+(
+    [_flash] => Array
+        (
+            [success] => Registration successful! Please log in.
+            [error] => Invalid credentials
+        )
+
+)
+
+User found: 
+Login attempt: onil
+POST data: Array
+(
+    [username] => onil
+    [password] => 123123
+)
+
+Session: Array
+(
+    [_flash] => Array
+        (
+            [success] => Registration successful! Please log in.
+            [error] => Invalid credentials
+        )
+
+)
+
+User found: 
+Login attempt: admin
+POST data: Array
+(
+    [username] => admin
+    [password] => admin123
+)
+
+Session: Array
+(
+    [_flash] => Array
+        (
+            [success] => Registration successful! Please log in.
+            [error] => Username already exists
+        )
+
+)
+
+User found: Array
+(
+    [id] => 3
+    [username] => admin
+    [password] => $2y$10$YCCH.qeqDxFf5.eOToEle.Mbxu6Nm9.Tj/j.MtiCy1EraZZpzsIem
+    [email] => admin@example.com
+    [role] => admin
+    [created_at] => 2025-05-22 09:12:52
+)
+
+Password verification result: SUCCESS
+Input password: admin123
+Stored hash: $2y$10$YCCH.qeqDxFf5.eOToEle.Mbxu6Nm9.Tj/j.MtiCy1EraZZpzsIem
+Login attempt: qwe
+POST data: Array
+(
+    [username] => qwe
+    [password] => qwe
+)
+
+Session: Array
+(
+    [_flash] => Array
+        (
+            [success] => Registration successful! Please log in.
+        )
+
+)
+
+User found: Array
+(
+    [id] => 6
+    [username] => qwe
+    [password] => $2y$10$Ii6UJvy2Q7a5StRc9X0R8uo1.4fKKhJxYS41vYOQeftbWMha3jcqW
+    [email] => qwe@gmail.com
+    [role] => 
+    [created_at] => 2025-05-22 09:59:35
+)
+
+Password verification result: SUCCESS
+Input password: qwe
+Stored hash: $2y$10$Ii6UJvy2Q7a5StRc9X0R8uo1.4fKKhJxYS41vYOQeftbWMha3jcqW
+Login attempt: admin
+POST data: Array
+(
+    [username] => admin
+    [password] => admin123
+)
+
+Session: Array
+(
+)
+
+User found: Array
+(
+    [id] => 3
+    [username] => admin
+    [password] => $2y$10$YCCH.qeqDxFf5.eOToEle.Mbxu6Nm9.Tj/j.MtiCy1EraZZpzsIem
+    [email] => admin@example.com
+    [role] => admin
+    [created_at] => 2025-05-22 09:12:52
+)
+
+Password verification result: SUCCESS
+Input password: admin123
+Stored hash: $2y$10$YCCH.qeqDxFf5.eOToEle.Mbxu6Nm9.Tj/j.MtiCy1EraZZpzsIem
+Login attempt: admin
+POST data: Array
+(
+    [username] => admin
+    [password] => admin123
+)
+
+Session: Array
+(
+)
+
+User found: Array
+(
+    [id] => 3
+    [username] => admin
+    [password] => $2y$10$YCCH.qeqDxFf5.eOToEle.Mbxu6Nm9.Tj/j.MtiCy1EraZZpzsIem
+    [email] => admin@example.com
+    [role] => admin
+    [created_at] => 2025-05-22 09:12:52
+)
+
+Password verification result: SUCCESS
+Input password: admin123
+Stored hash: $2y$10$YCCH.qeqDxFf5.eOToEle.Mbxu6Nm9.Tj/j.MtiCy1EraZZpzsIem
+Login attempt: admin
+POST data: Array
+(
+    [username] => admin
+    [password] => admin123
+)
+
+Session: Array
+(
+)
+
+User found: Array
+(
+    [id] => 3
+    [username] => admin
+    [password] => $2y$10$YCCH.qeqDxFf5.eOToEle.Mbxu6Nm9.Tj/j.MtiCy1EraZZpzsIem
+    [email] => admin@example.com
+    [role] => admin
+    [created_at] => 2025-05-22 09:12:52
+)
+
+Password verification result: SUCCESS
+Input password: admin123
+Stored hash: $2y$10$YCCH.qeqDxFf5.eOToEle.Mbxu6Nm9.Tj/j.MtiCy1EraZZpzsIem
+Login attempt: admin
+POST data: Array
+(
+    [username] => admin
+    [password] => admin123
+)
+
+Session: Array
+(
+)
+
+User found: Array
+(
+    [id] => 3
+    [username] => admin
+    [password] => $2y$10$YCCH.qeqDxFf5.eOToEle.Mbxu6Nm9.Tj/j.MtiCy1EraZZpzsIem
+    [email] => admin@example.com
+    [role] => admin
+    [created_at] => 2025-05-22 09:12:52
+)
+
+Password verification result: SUCCESS
+Input password: admin123
+Stored hash: $2y$10$YCCH.qeqDxFf5.eOToEle.Mbxu6Nm9.Tj/j.MtiCy1EraZZpzsIem
+Login attempt: admin
+POST data: Array
+(
+    [username] => admin
+    [password] => admin123
+)
+
+Session: Array
+(
+)
+
+User found: Array
+(
+    [id] => 3
+    [username] => admin
+    [password] => $2y$10$YCCH.qeqDxFf5.eOToEle.Mbxu6Nm9.Tj/j.MtiCy1EraZZpzsIem
+    [email] => admin@example.com
+    [role] => admin
+    [created_at] => 2025-05-22 09:12:52
+)
+
+Password verification result: SUCCESS
+Input password: admin123
+Stored hash: $2y$10$YCCH.qeqDxFf5.eOToEle.Mbxu6Nm9.Tj/j.MtiCy1EraZZpzsIem
+Login attempt: admin
+POST data: Array
+(
+    [username] => admin
+    [password] => admin123
+)
+
+Session: Array
+(
+)
+
+User found: Array
+(
+    [id] => 3
+    [username] => admin
+    [password] => $2y$10$YCCH.qeqDxFf5.eOToEle.Mbxu6Nm9.Tj/j.MtiCy1EraZZpzsIem
+    [email] => admin@example.com
+    [role] => admin
+    [created_at] => 2025-05-22 09:12:52
+)
+
+Password verification result: SUCCESS
+Input password: admin123
+Stored hash: $2y$10$YCCH.qeqDxFf5.eOToEle.Mbxu6Nm9.Tj/j.MtiCy1EraZZpzsIem
+Login attempt: Ymir
+POST data: Array
+(
+    [username] => Ymir
+    [password] => 123123123
+)
+
+Session: Array
+(
+    [_flash] => Array
+        (
+            [error] => Username already exists
+            [success] => Registration successful! Please log in.
+        )
+
+)
+
+User found: Array
+(
+    [id] => 7
+    [username] => Ymir
+    [password] => $2y$10$zwzmzplGdAIgdp/ZKGiikOUJECzsSVpD7VJxcFy7JaSWHkErnluUy
+    [email] => Ymir@gmail.com
+    [role] => 
+    [created_at] => 2025-05-22 12:07:36
+)
+
+Password verification result: SUCCESS
+Input password: 123123123
+Stored hash: $2y$10$zwzmzplGdAIgdp/ZKGiikOUJECzsSVpD7VJxcFy7JaSWHkErnluUy

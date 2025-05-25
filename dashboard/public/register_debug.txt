@@ -1,0 +1,60 @@
+Register attempt
+POST data: Array
+(
+    [username] => asdasdasd
+    [email] => ymir.onil.ylanan151@gmail.com
+    [password] => 123123123
+    [confirm_password] => 123123123
+)
+
+Register attempt
+POST data: Array
+(
+    [username] => asdasdasd
+    [email] => ymir.onil.ylanan151@gmail.com
+    [password] => 123123123
+    [confirm_password] => 123123123
+)
+
+Register attempt
+POST data: Array
+(
+    [username] => qwe
+    [email] => qwe@gmail.com
+    [password] => qwe
+    [confirm_password] => qwe
+)
+
+User ID: 6
+Database error: None
+
+Register attempt
+POST data: Array
+(
+    [username] => asd
+    [email] => asdasdasdas@gmail.com
+    [password] => asd
+    [confirm_password] => asd
+)
+
+Register attempt
+POST data: Array
+(
+    [username] => asdasdasd
+    [email] => asdasdasd@gmail.com
+    [password] => asdasdasd
+    [confirm_password] => asdasdasd
+)
+
+Register attempt
+POST data: Array
+(
+    [username] => Ymir
+    [email] => Ymir@gmail.com
+    [password] => 123123123
+    [confirm_password] => 123123123
+)
+
+User ID: 7
+Database error: None
+
